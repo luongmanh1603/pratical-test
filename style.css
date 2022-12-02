@@ -6,13 +6,19 @@
 body {
     font-family: sans-serif;
 }
+.vung1 {
+    width: 35%;
+}
+.vung2 {
+    width: 35%;
+}
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: 2px solid #c4c4c4;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    width: 50%px;
+    width: 500px;
     padding: 50px;
 }
 .tittle {
@@ -108,5 +114,9 @@ p .button {
 .success-icon, .failure-icon {
     right: 0;
     opacity: 0;
+}
+.account button {
+    border: none;
+    color: #4b82fa;
 }
 
